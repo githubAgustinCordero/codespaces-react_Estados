@@ -1,3 +1,16 @@
+Este proyecto es una aplicación web que utiliza React, que consiste en una lista de estados. La aplicación permite ver una lista de estados, añadir nuevos estados, editar y eliminar estados existentes.
+
+El proyecto utiliza las siguientes tecnologías:
+
+React: para construir la interfaz de usuario y manejar el estado de la aplicación.
+Bootstrap: para dar estilo a la aplicación.
+JSON-Server: como una base de datos para almacenar los estados.
+La aplicación se divide en varios componentes de React, cada uno encargado de una tarea específica. Por ejemplo, el componente "App" es el componente principal de la aplicación y maneja el estado de los estados y las operaciones CRUD. El componente "Form" es el componente encargado de mostrar y manejar el formulario para crear y editar estados.
+
+La aplicación utiliza un archivo db.json como su base de datos, donde se almacenan los estados. La aplicación utiliza el paquete json-server para simular una API REST y realizar operaciones CRUD en los estados.
+
+En resumen, este proyecto es una aplicación web construida con React que permite ver, añadir, editar y eliminar estados, utilizando JSON-Server como base de datos.
+
 # GitHub Codespaces ♥️ React
 
 Welcome to your shiny new Codespace running React! We've got everything fired up and running for you to explore React.
